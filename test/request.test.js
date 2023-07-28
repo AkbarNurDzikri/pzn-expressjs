@@ -3,7 +3,7 @@ import request from 'supertest';
 
 const app = express();
 
-// untuk menjalankan unit test menggunakan supertest package tidak perlu menjalankan server
+// untuk menjalankan unit test menggunakan supertest package, tidak perlu menjalankan server
 
 app.get('/', (req, res) => {
   res.send(`Hello, world`);
